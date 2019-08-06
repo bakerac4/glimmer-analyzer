@@ -1,4 +1,5 @@
 import { ResolverConfiguration } from '@glimmer/resolver';
+
 import { Config } from './load-config-factory';
 
 const DEFAULT_MODULE_CONFIGURATION = {
@@ -26,6 +27,10 @@ const DEFAULT_MODULE_CONFIGURATION = {
       unresolvable: true
     },
     utils: {
+      unresolvable: true
+    },
+    app: {
+      group: 'app',
       unresolvable: true
     }
   }
