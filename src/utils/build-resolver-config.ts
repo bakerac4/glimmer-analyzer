@@ -9,8 +9,8 @@ const DEFAULT_MODULE_CONFIGURATION = {
     'component-test': { unresolvable: true },
     helper: { definitiveCollection: 'components' },
     'helper-test': { unresolvable: true },
-    'app.ts': { unresolvable: true },
-    'package.json': { unresolvable: true },
+    'app': { unresolvable: true },
+    'package': { unresolvable: true },
     renderer: { definitiveCollection: 'main' },
     template: { definitiveCollection: 'components' }
   },
@@ -29,6 +29,9 @@ const DEFAULT_MODULE_CONFIGURATION = {
       unresolvable: true
     },
     utils: {
+      unresolvable: true
+    },
+    package: {
       unresolvable: true
     },
     app: {
