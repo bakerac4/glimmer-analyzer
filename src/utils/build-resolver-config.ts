@@ -30,7 +30,6 @@ const DEFAULT_MODULE_CONFIGURATION = {
       unresolvable: true
     },
     app: {
-      group: 'app',
       unresolvable: true
     }
   }
